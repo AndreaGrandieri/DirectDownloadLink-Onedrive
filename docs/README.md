@@ -1,4 +1,25 @@
-﻿/*
+# DirectDownloadLink-Onedrive
+
+> author: Andrea Grandieri g.andreus02@gmail.com [https://github.com/AndreaGrandieri](https://github.com/AndreaGrandieri)
+
+The following project makes you able to create __Direct Download Link__ for __Onedrive__
+given a _classic_ sharable link.
+
+Here's the difference:
+
+- Onedrive Classic Sharing Link: it opens a web interface to visualize the file and download
+  it using an embedded (gui) botton
+- Direct Download Link Onedrive: it lets you immediately download the requested file, throught
+  the Microsoft API. Perfect to share a _mirror like_ link, mostly used for automatic programs
+  that aren't able to interact with a gui!
+
+You can download the Visual Studio solution or run the following snippet in any C# environment:
+
+> ONLY FOR PERSONAL ONEDRIVE USE. NO BUSINESS (SHAREPOINT) COMPATIBILITY.
+> ONLY FOR SINGLE FILE. NO FOLDER COMPATIBILITY!!
+
+```csharp
+/*
  * @author: Andrea Grandieri g.andreus02@gmail.com https://github.com/AndreaGrandieri
  */
 
@@ -47,3 +68,25 @@ namespace DirectDownloadLink_Onedrive
         }
     }
 }
+
+```
+
+---
+
+## Obtaining the "Classic Sharing Link"
+
+1. Choose your file and click on `Share`. This panel will show:
+
+  ![1.PNG](assets/1.PNG)
+
+2. Now you have to change the privacy for the file: __it has to be set on READ-ONLY-SHARING__ (unckeck `Allow modify`):
+
+  ![2.jpg](assets/2.jpg)
+
+3. Now your panel should look like this:
+
+  ![3.png](assets/3.png)
+
+4. Finally get your _classic_ read only sharing link:
+
+  ![4.png](assets/4.png)
