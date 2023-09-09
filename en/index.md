@@ -80,11 +80,13 @@ lang: en
 
 ---
 
-## Autori
+## Authors
 
 - Andrea Grandieri [https://github.com/AndreaGrandieri](https://github.com/AndreaGrandieri)
 
 ---
+
+## What is it
 
 The following project makes you able to create __Direct Download Link__ for __Onedrive__
 given a _classic_ sharable link.
@@ -97,10 +99,12 @@ Here's the difference:
   the Microsoft API. Perfect to share a _mirror like_ link, mostly used for automatic programs
   that aren't able to interact with a gui!
 
-You can download the Visual Studio solution or run the following snippet in any C# environment:
-
 > ONLY FOR PERSONAL ONEDRIVE USE. NO BUSINESS (SHAREPOINT) COMPATIBILITY.
 > ONLY FOR SINGLE FILE. NO FOLDER COMPATIBILITY!!
+
+---
+
+## Source Code (copy, paste and execute)
 
 ```csharp
 /*
