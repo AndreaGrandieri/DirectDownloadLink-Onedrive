@@ -76,7 +76,7 @@ lang: en
 {: .motto-title }
 > <p class="blockquote-title-fixer-purple">tl;dr</p>
 >
-> Create __Direct Download Link__ for __Onedrive__ given a _classic_ sharable link.
+> Create Direct Download Link for Onedrive given a classic sharable link.
 
 ---
 
@@ -105,6 +105,8 @@ Here's the difference:
 ---
 
 ## Source Code (copy, paste and execute)
+
+> Language: C#
 
 ```csharp
 /*
